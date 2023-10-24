@@ -75,3 +75,15 @@ Altera a branch ativa.
 git branch -v
 ```
 Lista ultimo commit de cada branch
+```
+git merge nomebranch
+```
+Mescla branches e as alterações passam a ser refletidas em ambas
+```
+git branch
+```
+Lista branches no repo local
+```
+git branch -d nome-branch
+```
+Exclui branch indicada
