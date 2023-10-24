@@ -6,7 +6,8 @@
 </ul>
 </br></br>
 
-#Comandos básicos
+# Comandos básicos
 ```
 Git config --global credential.helper store
 ```
+Adiciona credenciais no repo local para uso em futuros projetos git
