@@ -44,3 +44,34 @@ git pull
 git log
 ```
 Lista os ultimos commits.
+```
+git remote -v
+```
+Lista repositorios remotos vinculados
+
+
+# Branches
+<ul>
+	<li>Uma branch é uma ramificação do seu projeto</li>
+	<li>Pode ser utilizada para testes, sem afetar a branch principal do projeto</li>
+	<li>Quando a nova branch é criada dentro de uma já existente, essa nova passa a apontar para 
+Mesmo commit de onde ela se originou</li>
+	<li>Criações em branches diferentes não se refletem em outras branches. Ambiente ideal para testes</li>
+	<li>Após finalizar trabalho, mesclar branches juntam arquivos</li>
+</ul>
+</br>
+
+# Comandos básicos
+
+```
+git checkout -b nomebranch
+```
+Cria uma nova branch
+```
+git checkout nomebranch
+```
+Altera a branch ativa.
+```
+git branch -v
+```
+Lista ultimo commit de cada branch
